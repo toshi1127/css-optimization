@@ -18,8 +18,8 @@ $ css-optimization -p <caseDir> -i <imgDir> -c <cssDir>
 
 ### Options
 ```
-$ pupperium --help
-Usage: pupperium [options]
+$ css-optimization --help
+Usage: css-optimization [options]
 
 Options:
   -V, --version                   output the version number
@@ -36,7 +36,7 @@ Options:
 ```
 name: demo
 version: 1
-url: 'https://suumo.jp/kanto/'
+url: 'https://suumo.jp/chintai/bc_100168625925/'
 iteration: 1
 
 steps:
@@ -52,7 +52,9 @@ steps:
   - action:
       type: click
       selector: '#js-mylist-historyBox-close' 
-
+  - action:
+      type: screenshot
+      name: 'demo'
 ```
 
 ### Demo
