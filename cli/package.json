@@ -20,8 +20,8 @@
     "lint": "tslint ./src/**/*.ts ./src/*.ts",
     "lint:fix": "tslint --fix ./src/**/*.ts ./src/*.ts",
     "clean": "rimraf ./lib/*",
-    "build": "yarn clean && tsc --outDir lib",
-    "watch": "yarn clean && tsc --outDir lib --watch",
+    "build": "npm run clean && tsc --outDir lib",
+    "watch": "npm run clean && tsc --outDir lib --watch",
     "test": "jest",
     "test:e2e:run-tests": "node ./lib/bin/cli.js -p ../example/cases -i ../example/outDir/img -c ../example/outDir/css"
   },

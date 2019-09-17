@@ -1,16 +1,14 @@
 # css-optimization
 
-This project uses [pupperium](https://github.com/akito0107/pupperium) to make [puppeteer](https://github.com/GoogleChrome/puppeteer) intuitive.
-
 This tool uses puppeteer's coverage feature to output an optimized CSS file.
 
-By describing actions in the yaml file, the puppeteer can be operated intuitively, so a more accurate CSS file is output.
+As a feature of the tool, by using [pupperium](https://github.com/akito0107/pupperium), [puppeteer](https://github.com/GoogleChrome/puppeteer) can be operated intuitively with yaml file.
 
 Media query and font-face, etc. are not deleted because PostCSS AST node is used.
 
 ### Installing
 ```
-$ yarn global add css-optimization
+$ npm install -g css-optimization
 ```
 
 ### How to use
@@ -61,7 +59,7 @@ steps:
 ```
 $ git clone https://github.com/toshi1127/css-optimization.git
 $ cd cli
-$ yarn
-$ yarn run build
-$ yarn run test:e2e:run-tests
+$ npm install
+$ npm run build
+$ npm run test:e2e:run-tests
 ```
