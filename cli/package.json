@@ -1,6 +1,6 @@
 {
   "name": "css-optimization",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "main": "lib/main.js",
   "types": "lib/main.d.ts",
   "repository": "toshi1127/css-optimization",
@@ -60,5 +60,11 @@
     "randexp": "^0.5.3",
     "recursive-readdir": "^2.2.2",
     "source-map-support": "^0.5.13"
-  }
+  },
+  "keywords": [
+    "puppeteer",
+    "pupperium",
+    "css",
+    "cli"
+  ]
 }
