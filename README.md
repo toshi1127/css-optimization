@@ -63,5 +63,5 @@ $ git clone https://github.com/toshi1127/css-optimization.git
 $ cd cli
 $ npm install
 $ npm run build
-$ npm run test:e2e:run-tests
+$ npm run start:demo
 ```
