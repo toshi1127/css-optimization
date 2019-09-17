@@ -16,3 +16,6 @@ steps:
   - action:
       type: click
       selector: '#js-mylist-historyBox-close' 
+  - action:
+      type: screenshot
+      name: 'demo'
