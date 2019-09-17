@@ -351,7 +351,7 @@ export async function handleAction<T extends BrowserType>(
 ): Promise<Context> {
   for (const step of steps) {
     const action = step.action;
-    const handler = handlers[action.type];
+    const handler = handlers[action.type] as ActionHandler<ActionName, BrowserType>;
     if (!handler) {
       throw new Error(`unknown action type: ${(action as any).type}`);
     }
