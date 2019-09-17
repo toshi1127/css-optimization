@@ -1,0 +1,25 @@
+skip: false
+name: 'sample'
+version: 1
+url: 'http://localhost:3000/login'
+iteration: 1
+steps:
+  - action:
+      type: input
+      form:
+        selector: 'input[name="email"]'
+        value: 'test@example.com'
+  - action:
+      type: input
+      form:
+        selector: 'input[name="password"]'
+        value: 'passw0rd'
+  - action:
+      type: click
+      selector: 'button[type="submit"]'
+  - action:
+      type: wait
+      duration: 1000
+  - action:
+      type: screenshot
+      name: 'login_success'

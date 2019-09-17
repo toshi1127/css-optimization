@@ -1,0 +1,25 @@
+skip: false
+name: 'convert_test'
+version: 1
+url: '{{ hostUrl }}/login'
+iteration: 1
+steps:
+  - action:
+      type: input
+      form:
+        selector: 'input[name="email"]'
+        value: '{{ userId }}'
+  - action:
+      type: input
+      form:
+        selector: 'input[name="password"]'
+        value: '{{ password }}'
+  - action:
+      type: click
+      selector: 'button[type="submit"]'
+  - action:
+      type: wait
+      duration: 1000
+  - action:
+      type: screenshot
+      name: 'login_success'

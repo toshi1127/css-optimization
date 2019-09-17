@@ -1,0 +1,18 @@
+name: demo
+version: 1
+url: 'https://suumo.jp/chintai/bc_100168625925/'
+iteration: 1
+
+steps:
+  - action:
+      type: hover
+      selector: '#js-mylist > div > ul > li:nth-child(2) > div > div > ul'
+  - action:
+      type: click
+      selector: '#js-mylist-myHistory' 
+  - action:
+      type: wait
+      duration: 500
+  - action:
+      type: click
+      selector: '#js-mylist-historyBox-close' 

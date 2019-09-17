@@ -1,0 +1,22 @@
+{
+  "name": "css-optimization",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toshi1127/delete-unuse-css.git"
+  },
+  "author": {
+    "name": "toshi1127",
+    "email": "toshi.matsumoto.3n@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toshi1127/delete-unuse-css/issues"
+  },
+  "homepage": "https://github.com/toshi1127/delete-unuse-css#readme"
+}
