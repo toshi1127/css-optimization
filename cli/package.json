@@ -1,6 +1,6 @@
 {
   "name": "css-optimization",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "main": "lib/main.js",
   "types": "lib/main.d.ts",
   "repository": "toshi1127/css-optimization",
