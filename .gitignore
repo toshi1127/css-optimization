@@ -88,6 +88,7 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
-example/outDir/css
-example/outDir/img
+example/outDir/css/*
+example/outDir/img/*
+!.gitkeep
 # End of https://www.gitignore.io/api/node

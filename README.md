@@ -26,8 +26,6 @@ Options:
   -p, --path <caseDir>            cases root dir
   -i, --image-dir <imgDir>        screehshots dir
   -c, --css-dir <cssDir>          optimize css dir
-  -e, --extension-dir <exDir>     extensions dir
-  -t, --target <targetScenarios>  target scenario names (comma delimited)
   -h, --disable-headless          disable headless mode
   -h, --help                      output usage information
 ```

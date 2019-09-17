@@ -29,12 +29,6 @@ program
   .option("-p, --path <caseDir>", "cases root dir")
   .option("-i, --image-dir <imgDir>", "screehshots dir")
   .option("-c, --css-dir <cssDir>", "optimize css dir")
-  .option("-e, --extension-dir <exDir>", "extensions dir")
-  .option("-j, --parallel <parallel>", "run parallel (default = 1)")
-  .option(
-    "-t, --target <targetScenarios>",
-    "target scenario names (comma delimited)"
-  )
   .option("-h, --disable-headless", "disable headless mode")
   .option("--puppeteer-args <puppeteerArgs>")
   .parse(process.argv);
