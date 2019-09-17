@@ -2,7 +2,7 @@
 
 This tool uses puppeteer's coverage feature to output an optimized CSS file.
 
-As a feature of the tool, by using [pupperium](https://github.com/akito0107/pupperium), [puppeteer](https://github.com/GoogleChrome/puppeteer) can be operated intuitively with yaml file.
+As a feature of the tool, by using [pupperium](https://github.com/akito0107/pupperium), user can operate [puppeteer](https://github.com/GoogleChrome/puppeteer) with the yaml file.
 
 Media query and font-face, etc. are not deleted because PostCSS AST node is used.
 
