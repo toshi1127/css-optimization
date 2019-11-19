@@ -34,7 +34,7 @@ Options:
 ```
 name: demo
 version: 1
-url: 'https://suumo.jp/chintai/bc_100168625925/'
+url: 'https://suumo.jp/kanto/'
 iteration: 1
 
 steps:
