@@ -1,7 +1,5 @@
 name: demo
-version: 1
-url: 'https://suumo.jp/chintai/bc_100168625925/'
-iteration: 1
+url: 'https://suumo.jp/kanto/'
 
 steps:
   - action:
@@ -13,9 +11,6 @@ steps:
   - action:
       type: wait
       duration: 500
-  - action:
-      type: click
-      selector: '#js-mylist-historyBox-close' 
   - action:
       type: screenshot
       name: 'demo'

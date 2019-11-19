@@ -203,7 +203,7 @@ export async function run({
   } finally {
     const [cssCoverage] = await Promise.all([(page as puppeteer.Page).coverage.stopCSSCoverage()]);
     const fileCoverageMap = cssCoverage
-      .filter(entry => entry.url.includes('suumo') && entry.ranges.length > 0)
+      .filter(entry => entry.ranges.length > 0)
       .map(entry => {
         const { url } = entry;
         return {
@@ -213,18 +213,6 @@ export async function run({
         };
       });
     removeUnusedLines(fileCoverageMap, cssDir);
-    fs.writeFile(
-      `target_css_files.json`,
-      JSON.stringify(
-        fileCoverageMap.map(item => ({
-          url: item.url,
-          fileName: item.fileName
-        }))
-      ),
-      err => {
-        if (err) {}
-      }
-    );
     await browser.close();
   }
 }
@@ -308,7 +296,7 @@ export async function handleIteration<T extends BrowserType>(
   }: { imageDir: PathLike; browserType: T; context: Context }
 ): Promise<Context> {
   return reduce(
-    Array.from({ length: scenario.iteration }),
+    Array.from({ length: 1 }),
     async (acc: Context, current: number, idx) => {
       await handlers.goto(page, {
         action: { type: "goto", url: scenario.url }
