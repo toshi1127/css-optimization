@@ -33,9 +33,7 @@ Options:
 ### example: case file
 ```
 name: demo
-version: 1
 url: 'https://suumo.jp/kanto/'
-iteration: 1
 
 steps:
   - action:
@@ -47,9 +45,6 @@ steps:
   - action:
       type: wait
       duration: 500
-  - action:
-      type: click
-      selector: '#js-mylist-historyBox-close' 
   - action:
       type: screenshot
       name: 'demo'
