@@ -43,6 +43,7 @@ export type Scenario = {
   precondition?: PreCondition;
   steps: Action[];
   postcondition?: PostCondition;
+  userAgent?: string;
 };
 
 export type PreCondition = {
