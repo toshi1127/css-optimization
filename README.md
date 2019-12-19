@@ -34,6 +34,7 @@ Options:
 ```
 name: demo
 url: 'https://suumo.jp/kanto/'
+userAgent: 'bot'
 
 steps:
   - action:
