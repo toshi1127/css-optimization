@@ -1,6 +1,6 @@
 {
   "name": "css-optimization",
-  "version": "1.0.1",
+  "version": "1.4.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/toshi1127/delete-unuse-css.git"
+    "url": "git+https://github.com/toshi1127/css-optimization.git"
   },
   "author": {
     "name": "toshi1127",
@@ -16,7 +16,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/toshi1127/delete-unuse-css/issues"
+    "url": "https://github.com/toshi1127/css-optimization/issues"
   },
-  "homepage": "https://github.com/toshi1127/delete-unuse-css#readme"
+  "homepage": "https://github.com/toshi1127/css-optimization#readme"
 }
