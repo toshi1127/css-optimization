@@ -33,19 +33,25 @@ Options:
 ### example: case file
 ```
 name: demo
-url: 'https://suumo.jp/kanto/'
+url: 'http://example.com/'
 userAgent: 'bot'
 
 steps:
   - action:
       type: hover
-      selector: '#js-mylist > div > ul > li:nth-child(2) > div > div > ul'
+      selector: '.fuga'
   - action:
       type: click
-      selector: '#js-mylist-myHistory' 
+      selector: '.hoge'
   - action:
       type: wait
       duration: 500
+  - action:
+      type: select
+      selector: '.fuga'
+  - action:
+      type: focus
+      selector: '.fuga'
   - action:
       type: screenshot
       name: 'demo'
