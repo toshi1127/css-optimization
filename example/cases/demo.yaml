@@ -1,13 +1,7 @@
 name: demo
-url: 'https://suumo.jp/kanto/'
+url: 'http://example.com/'
 
 steps:
-  - action:
-      type: hover
-      selector: '#js-mylist > div > ul > li:nth-child(2) > div > div > ul'
-  - action:
-      type: click
-      selector: '#js-mylist-myHistory' 
   - action:
       type: wait
       duration: 500
